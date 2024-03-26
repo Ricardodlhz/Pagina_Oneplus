@@ -1,26 +1,32 @@
 .header{
     width: 100%;
     border: 1px solid #cccccc;
+    
 }
 .container_header{
     
-    width: 1800px;
+    max-width: 1800px;
     margin: auto;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .menu{
     margin-top: 10px;
+    
 }
 .menu_lista{
    display: flex; 
+   flex-wrap: wrap;
    gap: 30px;
 }
 .menu_li{
     list-style: none;
     font-weight: 400;
+    
+    
 }
 .menu_li:hover{
     cursor: pointer;
@@ -41,7 +47,7 @@
     border-bottom: 1px solid #F50514;
 }
 
-.enlace_menu{
+.enlace{
     text-decoration: none;
     color: black;
 }
