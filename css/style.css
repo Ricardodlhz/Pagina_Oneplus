@@ -208,6 +208,10 @@ body{
 .container_telefonos{
     width: 900px;
     border-left: 1px solid #EAEAEA;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
 }
 
 .container_input{
@@ -231,4 +235,10 @@ body{
 
 .Series{
     margin-top: 30px;
+}
+
+.foto_telefonos{
+    margin-top: 40px;
+    max-width: 230px;
+    
 }
